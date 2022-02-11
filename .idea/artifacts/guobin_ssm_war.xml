@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="guobin_ssm:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>guobin_ssm</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="guobin_ssm.war">
+      <element id="artifact" artifact-name="guobin_ssm:war exploded" />
+    </root>
+  </artifact>
+</component>
